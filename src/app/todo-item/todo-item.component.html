@@ -1,0 +1,4 @@
+<div *ngIf="todo">
+  <span>{{ todo.text }}</span>
+  <button (click)="remove.emit()">Remove</button>
+</div>

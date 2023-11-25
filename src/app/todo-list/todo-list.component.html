@@ -1,0 +1,22 @@
+<div class="main">
+  <input [(ngModel)]="newTodo" placeholder="New Todo" (keyup.enter)="addTodo()" />
+  <button (click)="addTodo()">Add</button>
+  <br /><br />
+  <table class="center-table">
+    <thead class="action">
+      <tr>
+        <th>Name</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let todo of todos; let i = index">
+        <td>{{ todo.text }}</td>
+        <td>
+          <button (click)="removeTodo(i)" class="remove-button">Remove</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+

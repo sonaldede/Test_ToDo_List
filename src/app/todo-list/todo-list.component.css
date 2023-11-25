@@ -1,0 +1,80 @@
+.main {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  width: 70%;
+  padding: 8px;
+  margin-right: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(150, 79, 56);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-top: 10px;
+}
+
+.app-todo-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+  color: red;
+}
+
+.app-todo-item span {
+  flex-grow: 1;
+  margin-right: 10px;
+  margin-right: 10px;
+}
+
+.app-todo-item button {
+ background-color: red;  color: #fff;
+  border: none;
+  padding: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.app-todo-item button:hover {
+  background-color: #d32f2f;
+}
+.remove-button {
+  color: rgb(239, 232, 232);
+  background-color: #d32f2f;
+}
+.center-table {
+  margin: 0 auto;
+}
+.action{
+  color: black;
+  background-color: #cabbbb;
+}
